@@ -1,0 +1,18 @@
+.resume__education__title, .resume__experience__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}
+
+.resume__full {
+    display: flex;
+    justify-content: space-between;
+    padding: 8% 15%;
+}
+
+.resume__experience--post, 
+.resume__experience--company, 
+.resume__education--institution, 
+.resume__education--status {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+}

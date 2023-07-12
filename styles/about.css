@@ -1,0 +1,11 @@
+.sobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre__conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 8% 15%;
+}
+

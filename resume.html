@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo</title>
 
+    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/resume.css">
 
 </head>
 <body>
@@ -20,9 +22,51 @@
         </nav>
     </header>
 
-    <main></main>
+    <main class="resume__full">
+        <section class="resume__content">
 
-    <footer class="rodape">
+            <h2 class="resume__education__title">Formação acadêmica</h2>
+            <ul class="resume__education__info">
+                <li class="resume__education__info--description">
+                    <h3 class="resume__education--course-name">Engenharia de Software</h3>
+                    <p class="resume__education--institution">Uninter</p>
+                    <p class="resume__education--status">Cursando | <time>2023</time> a <time>2027</time> </p>
+                </li>
+                <li class="resume__education__info--description">
+                    <h3>Tecnologia em Marketing</h3>
+                    <p>Uninove</p>
+                    <p>Concluído | <time>2015</time> a <time>2016</time> </p>
+                </li>
+            </ul>
+
+            <hr>
+
+            <h2 class="resume__experience__title">Experiência profissional</h2>
+            <ul class="resume__experience--history">
+
+                <li>
+                    <h3 class="resume__experience--post">Cargo 01</h3>
+                    <p class="resume__experience--company">Empresa 01</p>
+                </li>
+
+                <li>
+                    <h3 class="resume__experience--post">Cargo 02</h3>
+                    <p class="resume__experience--company">Empresa 02</p>
+                </li>
+
+                <li>
+                    <h3 class="resume__experience--post">Cargo 03</h3>
+                    <p class="resume__experience--company">Empresa 03</p>
+                </li>
+
+            </ul>
+        </section>
+
+        <img src="https://placekitten.com/488/550" alt="foto de dev programando para portfolio">
+
+    </main>
+
+    <footer class="footer">
         <p>Desenvolvido por Diogo Hernandes, apenas para fins didáticos.</p>
     </footer>
 
