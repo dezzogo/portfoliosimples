@@ -5,22 +5,43 @@
     padding: 0;
 }
 
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+}
+
 body {
     box-sizing: border-box;
     background-color: #240046;
     color: #fec601;
-    height: 100vh;
+    max-height: 100vh;
+}
+
+.cabecalho {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu--item:hover {
+    color: #ff9e00;
 }
 
 .apresentacao {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin: 10%;
+    justify-content: space-between;
+    padding: 5% 15%;
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 640px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -42,22 +63,54 @@ body {
 
 .apresentacao__links {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
 }
 
-.apresentacao__links a {
-    width: 280px;
-    background-color: #ff9e00;
-    border-radius: 16px;
+.apresentacao__links--redes {
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.apresentacao__links--link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 378px;
+    color: #fec601;
+    border: 2px solid #fec601;
+    border-radius: 8px;
+
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
+
     text-align: center;
-    padding: 21.5px 0;
+    padding: 1em;
+    gap: 1em;
     transition: 0.3s;
 }
 
-.apresentacao__links a:hover {
-    background-color: #fec601;
+.apresentacao__links--link:hover {
+    background-color: #ff9e00;
+    color: #240046;
 }
+
+.rodape {
+    text-align: center;
+    background-color: #fec601;
+    color: #240046;
+    padding: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400; 
+}
+
+/* .apresentacao__links--link img:hover {
+    background: linear-gradient(to right,#172BE6, #9A09E3);
+    border-radius: 10%;
+} */
