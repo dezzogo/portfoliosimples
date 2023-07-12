@@ -8,13 +8,13 @@
 ul, li, a {
     list-style: none;
     text-decoration: none;
+    color: #fec601;
 }
 
 body {
     box-sizing: border-box;
     background-color: #240046;
     color: #fec601;
-    max-height: 100vh;
 }
 
 .cabecalho {
@@ -29,8 +29,9 @@ body {
     gap: 80px;
 }
 
-.cabecalho__menu--item:hover {
+.cabecalho__menu--item a:hover {
     color: #ff9e00;
+    transition: 0.3s;
 }
 
 .apresentacao {
@@ -59,6 +60,10 @@ body {
 .apresentacao__conteudo__texto {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
+}
+
+.apresentacao__conteudo__texto--destaque {
+    color: #ff9e00;
 }
 
 .apresentacao__links {
