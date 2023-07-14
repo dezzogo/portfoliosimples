@@ -1,18 +1,24 @@
-.resume__education__title, .resume__experience__title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-}
-
 .resume__full {
     display: flex;
     justify-content: space-between;
-    padding: 8% 15%;
+    padding: 3% 15%;
+    font-family: var(--main-font);
+    font-size: 1.2em;
+    gap: 0.5em;
+    align-items: center;
 }
 
-.resume__experience--post, 
-.resume__experience--company, 
-.resume__education--institution, 
-.resume__education--status {
-    font-family: 'Montserrat', sans-serif;
+.resume__content ul, hr {
+    margin: 5% 0;
+}
+
+.resume__education__info--description,
+.resume__experience--history li {
+    padding: 2%;
+}
+
+.resume__education__title, 
+.resume__experience__title {
+    font-family: var(--second-font);
     font-size: 1.5em;
 }

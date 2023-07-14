@@ -6,3 +6,13 @@
 ul, li, ol, a {
     text-decoration: none;
 }
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffc300;
+    --tertiary-color: #22d4fd;
+    --hover-color: #272727;
+
+    --main-font: 'Montserrat', sans-serif;
+    --second-font: 'Krona One', sans-serif;
+}
